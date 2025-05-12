@@ -5,17 +5,17 @@ with open("README.md", "r", encoding = "utf-8") as f:
     
 __version__ = "0.0.0"
 
-REPO_NAME = "End-to-End-ML-Project-w-MLFlow"
-AUTHOR_USER_NAME = "thehaniyaakhtar"
-SRC_REPO = "MLwMLFlow"
-AUTHOR_EMAIL = "thehaniyaakhtar@gmail.com"
+REPO_NAME = ""
+AUTHOR_USER_NAME = ""
+SRC_REPO = ""
+AUTHOR_EMAIL = ""
 
 setuptools.setup(
     name = SRC_REPO,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="I should study for my finals but ok",
+    description="",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
